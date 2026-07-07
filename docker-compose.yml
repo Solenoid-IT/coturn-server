@@ -20,4 +20,4 @@ services:
 
 volumes:
   coturn-data:
-    name: reactor-coturn-data
+    name: vol-coturn-data

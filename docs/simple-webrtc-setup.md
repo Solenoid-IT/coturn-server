@@ -29,8 +29,8 @@ Edit:
 Set at least:
 
 ```conf
-realm=reactor.example.com
-user=reactor:replace-with-strong-password
+realm=www.example.com
+user=coturn:replace-with-strong-password
 listening-port=3478
 tls-listening-port=5349
 cert=/var/lib/coturn/certs/cert.pem
@@ -160,7 +160,7 @@ Stop coturn stack:
 docker compose down
 ```
 
-Preserve runtime data by default (named volume `reactor-coturn-data`).
+Preserve runtime data by default (named volume `vol-coturn-data`).
 
 To remove all persisted data volumes:
 
